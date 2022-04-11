@@ -1,0 +1,15 @@
+.container {
+  display: block;
+}
+
+.container .card-section {
+  flex-direction: column;
+}
+
+.container .card-section .card {
+  margin: 3rem 0rem;
+}
+
+.container .card-section .card:first-child {
+    margin: 12rem 0rem 3rem 0rem;
+}
